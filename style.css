@@ -1,9 +1,24 @@
-div.dib{background-color: #8a2be2;
-height: 15vh;}
-ul.bid {
-display: grid;
-grid-template-columns: 15% 15% 15% 15% 15% ;
-color: white;
-padding-top: 5vh;
-list-style-type: none;
+div.container{
+text-align: center;
+background-color: white;
+border: 0 none;
+border-radius: 5px;
+box-shadow: 0 0 5px 1px rgb(136, 118, 118); 
+padding: 20px 30px;
+box-sizing: border-box;
+width: 40%;
+height: 80vh;
+margin: 0 30%;      }
+div.child{
+width: 40%%;
+margin-left: 3%;
+margin-top: 20%;
 }
+input{
+    box-shadow: 0 0 5px 1px rgb(167, 165, 147); 
+    border-radius: 25px;
+    width: 70%;}
+button{box-shadow: 0 0 5px 1px rgb(204, 192, 192); 
+    width: 70%;
+    border-radius: 25px;
+    background-position: bottom;}
